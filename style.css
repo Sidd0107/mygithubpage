@@ -1,0 +1,330 @@
+/*
+Sets the common style of the body
+In this case the background.
+*/
+
+body {
+    background-color: black;
+}
+
+/*
+Header is styled below
+Background is set to black and 
+the font color is set
+to meet assignment requiement to make
+sure the colour is different from all other
+panels. Header has also been set
+to give a round border as mentioned
+on the assignment handout.
+*/
+header {
+  display: block;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: orange;
+  background-color: black;
+  position: fixed;
+  width: 90%;
+  float: right;
+  height: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  padding-bottom: 5px;
+  padding-left: 9%;
+}
+
+header h1{
+  text-align:center;
+  padding:5px;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  text-align: center;
+  color:#B8860B;
+  font-size: 35px;
+}
+
+
+/*
+Navbar is stye below where the background 
+is set to a light grey colour and the width is set
+to 15% of the page and height 100%. Again the 
+background colour is different so that it is
+seperatey identifiable a navigation panel/bar.
+Fixed position is set as a styling feature
+so the navbar is always there even when a
+user is scrolling
+*/
+
+#navbar{
+    position:fixed;
+    top:13%;
+    padding-top: 5%;
+    background-color: #404040;
+    line-height: 60px;
+    float:left;
+    width:15%;
+    height: 80%;    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#navbar a{
+    font-family: 'Scada', sans-serif;
+    color: yellow;
+}
+
+/*
+The link is styed below
+so that it is underlined upon hover.
+*/
+#navbar a:link{
+    color: ##FF0000;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color: ##FF0000;
+    text-decoration: underline;
+}
+
+/*
+Panel to the right(panelRight) is styled below. Again the 
+background colour is different so that it is
+seperatey identifiable a side panel.
+*/
+#panelRight{
+    position: fixed;
+    top: 20%;
+    right: 0%;
+    border: 3px solid yellow;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;    
+    padding: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #191970;
+    line-height: 20px;
+    float: right;
+    padding-left: 10px;
+    width: 25%;
+    text-align: center;
+    height: 40%;
+
+}
+
+
+#panelRight  p{
+    font-family: 'Scada', sans-serif;
+    color: white;
+}
+
+/*
+The present status section is styled here.
+Google fonts has been used for h2 and p.Apart from that
+the width has been set so it auto-adjusts. Note these are
+responsive. Different background colour has been used to
+make it easily identifiable and distinguishable. 
+*/
+
+#sectionStatus{          
+    background-color: #B71427;
+    color: white;   
+    width: 100%;
+    height: 450px;   
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 10%;   
+    padding-left: 18%;
+}
+
+#sectionStatus h2{
+  font-family: 'Scada', sans-serif;
+}
+
+#sectionStatus p{
+  font-family: 'Scada', sans-serif;
+}
+
+/*
+The work section is styled here.
+Google font has been used for h2 and p.Apart from that
+the width has been set so it auto-adjusts. Different 
+background colour  has been used to make it easily 
+identifiable and distinguishable. 
+*/
+
+#sectionWork{   
+    background-color: #FDF3E7;
+    color: black;    
+    width: 100%;
+    height: 1180px;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-top: 9%; 
+    padding-left: 18%;
+}
+
+#sectionWork h2{
+  font-family: 'Scada', sans-serif;
+}
+
+#sectionWork p{
+  font-family: 'Scada', sans-serif;
+}
+
+/*
+The Education section is styled here.
+Google font has been used for h2 and p.Apart from that
+the width has been set so it auto-adjusts. Different 
+background colour  has been used to make it easily 
+identifiable and distinguishable. 
+*/
+#sectionEducation{ 
+    background-color: #D9853B;
+    color: black;    
+    width: 100%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9%;   
+    padding-left: 18%;
+}
+
+#sectionEducation h2{
+  font-family: 'Scada', sans-serif;
+}
+
+#sectionEducation p{
+  font-family: 'Scada', sans-serif;
+}
+
+/*
+The skills section is styled here.
+Google font has been used for h2 and p.Apart from that
+the width has been set so it auto-adjusts. Different 
+background colour  has been used to make it easily 
+identifiable and distinguishable. 
+*/
+#sectionSkills{ 
+    background-color: #6DBDD6;
+    color: #585858;    
+    width: 100%;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9%;   
+    padding-left: 18%;
+}
+
+#sectionSkills h2{
+  font-family: 'Scada', sans-serif;
+}
+
+#sectionSkills p{
+  font-family: 'Scada', sans-serif;
+}
+
+/*
+The Projects section is styled here.
+Google font has been used for h2 and p.Apart from that
+the width has been set so it auto-adjusts. Different 
+background colour  has been used to make it easily 
+identifiable and distinguishable. 
+*/
+#sectionProjects{ 
+    background-color: #7D1935;
+    color: white;    
+    width: 100%;
+    height: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9%;   
+    padding-left: 18%;
+}
+
+#sectionProjects h2{
+  font-family: 'Scada', sans-serif;
+}
+
+#sectionProjects p{
+  font-family: 'Scada', sans-serif;
+}
+
+/*
+The Volunteering section is styled here.
+Google font has been used for h2 and p.Apart from that
+the width has been set so it auto-adjusts. Different 
+background colour  has been used to make it easily 
+identifiable and distinguishable. 
+*/
+#sectionVolunteer{ 
+    background-color: #FFE658;
+    color: black;    
+    width: 100%;
+    height:350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9%;   
+    padding-left: 18%;
+    line-height: 30px;
+}
+
+#sectionVolunteer li{
+  font-family: 'Scada', sans-serif;
+}
+
+#sectionVolunteer p{
+  font-family: 'Scada', sans-serif;
+}
+
+/*
+The Awards section is styled here.
+Google font has been used for h2 and p.Apart from that
+the width has been set so it auto-adjusts. Different 
+background colour  has been used to make it easily 
+identifiable and distinguishable. 
+*/
+#sectionAwards{ 
+    background-color: white;
+    color: #7D1935;    
+    width: 100%;
+    height:450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;   
+    padding-left: 18%;
+    line-height: 30px;
+}
+
+#sectionAwards h2{
+  font-family: 'Scada', sans-serif;
+}
+
+#sectionAwards li{
+  font-family: 'Scada', sans-serif;
+}
+
+/*
+The footer is styled here. The font colour and background  
+are set to match the header as mentioned in the handout.
+The footer is also given a circular border as mentioned.  
+*/
+footer {
+  background: black;
+  border-style: solid;
+  border-color: orange;
+  display: block;
+  border-radius: 30px;
+  position: fixed;
+  top:91%;
+  color:#B8860B;
+  height: 9%;
+  width: 90%;
+  padding-left: 9%;
+  text-align: center;
+  font-weight: bold;
+}
+
